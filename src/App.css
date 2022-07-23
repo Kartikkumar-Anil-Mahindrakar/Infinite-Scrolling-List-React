@@ -1,0 +1,95 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* Contact List */
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.section-title {
+  margin-top: 30px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: calc(33% - 10px);
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact-image {
+  border-radius: 25%;
+  padding: 0, 10px, 0, 0;
+  width: 100px;
+  height: 100px;  
+}
+.contact-name {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+
+
+/* Login */
+
+.login-card{
+  margin: auto;
+  margin-top: 20vh;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 5px 5px 50px 2px grey;
+  border-radius: 20px;
+}
+
+.form-control{
+  border-radius: 20px !important;
+  background-color: aliceblue;
+}
+
+.form-submit-btn{
+  border-radius: 20px !important;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+/* Tablets */
+@media (max-width: 1000px) {
+  .App {
+    max-width: 600px;
+  }
+  .card {
+    width: calc(60% );
+  }
+  .login-card{
+    width: 50%;
+  }
+}
+/* Mobiles \*/
+@media (max-width: 640px) {
+  .App {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .card {
+    width: 100%;
+  }
+  .login-card{
+    width: 80%;
+  }
+}
+
+
+
+
+
